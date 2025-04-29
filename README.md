@@ -1,1 +1,9 @@
 # Fundamentos_Orientacao_a_Objetos 
+- O principal objetivo da programação é resolver algum tipo de problema utilizado para isso um software. De forma genérica, podemos resolver um problema de maneiras diferentes, com visões diferentes, na programação essas visões diferentes são conhecidas como paradigma.
+- Queremos relacionar os objetos para trocar informações entre si, cada objeto se relaciona com características, com ações individuais dele, para cada objeto se tem métodos diferentes. 
+- Um objeto pode ser categorizado, definido por suas características, um objeto pode ser simples ou complexo. 
+- Utilizamos POO para facilitar o entendimento do código.
+- Colocamos o código como caixinhas, que é modularização e conseguimos reutilizar em outras partes do programa, utilizando as funcionalidades do código sem ter que replicar em várias partes do programa, se quiser que ele execute alguma funcionalidade, você chama ela. 
+- Também utilizando POO para aproximarmos o código do mundo real, ajuda a gerenciar a memória do computador. A funcionalidade só é executada quando ela é chamada, quando ela executa se cria espaço na memória, fazendo o que tem que fazer e no final a memória é liberada. 
+- O objeto vai ser construído e guardado em uma variável e esse objeto vai vir de um modelo, outro código irá gerar esse modelo, esse modelo é a classe.
+- Uma classe é um modelo onde irá se descrever as propriedades do objeto que irá ser utilizado durante o código.
