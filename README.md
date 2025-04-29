@@ -24,3 +24,16 @@ maria = Pessoa() // maria é o nome da variável que está armazenando a instân
 joaoa = Pessoa() // joao recebe uma instância gerada da classe Pessoa e essa instância está sendo armazenada na variável joao. joao é o nome da variável que está armazenando a instância, o objeto, gerado da classe Pessoa
 - Orinetação a Objetos é um paradigma da programação.
 - Em uma linguagem de programação orientada a objetos todas as variáveis são instâncias de classes. Classes de números inteiros, classes de números reais, classes que representam as strings. E essas classes representam essas variáveis, pois elas se comportam diferente no código. Diferentes classes representam diferentes tipos de objetos.
+## Variáveis
+- Vamos perceber que um objeto pode ser visto como um tipo de variável que é construída pelo próprio programador.
+- Local onde irá guardar temporariamente algo dentro.
+- Atribuição: é quando se pega uma variável e colocamos alguma coisa nela. Que é um espaço de memória.
+Exemplo: class Carro:
+           odometro = 0
+           motorizacao = 1.0
+         sandero = Carro() // sandero é uma instância da classe Carro
+         ka = Carro() // ka é uma insância da classe Carro
+  - Se tem uma única variável que define todas as propriedades.
+  - As variáveis tem que ter o nome mais significativo para o seu usa, para que outras pessoas consigam entender.
+  - Os atributos de uma classe podem ser classificados de formas diferentes. Podendo estar dentro de um método/função. Quando pegamos uma função e definimos ela dentro de uma classe, ela começa a se chamr de método.
+  - Os atributos que estão dentro de um método são atributos de instância. São vinculados ao objeto que estou criando na hora, com aquelas características. Atributos de classe são atributos para todos os objetos gerados naquela classe.
