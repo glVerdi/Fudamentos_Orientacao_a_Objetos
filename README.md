@@ -1,4 +1,6 @@
-# Fundamentos_Orientacao_a_Objetos 
+# Fundamentos Orientação a Objetos 
+
+## O que é programação Orientado a Objetos
 - O principal objetivo da programação é resolver algum tipo de problema utilizado para isso um software. De forma genérica, podemos resolver um problema de maneiras diferentes, com visões diferentes, na programação essas visões diferentes são conhecidas como paradigma.
 - Queremos relacionar os objetos para trocar informações entre si, cada objeto se relaciona com características, com ações individuais dele, para cada objeto se tem métodos diferentes. 
 - Um objeto pode ser categorizado, definido por suas características, um objeto pode ser simples ou complexo. 
