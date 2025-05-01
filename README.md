@@ -90,3 +90,28 @@ joaoa = Pessoa() // joao recebe uma instância gerada da classe Pessoa e essa in
 - Uma instância de uma classe significa que encapsuloou tudo que está dentro daquela classe em um objeto.
 - A atribuição é um encapsulamento.
 - Temos que melhorar esse encapsulamento para proteger melhor o que tem dentro dele.
+- Proteger o conteúdo que está nos atributos.
+
+## Visibilidade
+- Como os atributos e métodos podem ser utilizados para “proteger" seus conteúdos. Existem situações nas quais os atributos devem ficar “escondidos" na classe, ou seja, não queremos que sejam acessados por códigos de forma da classe.
+- Forma de enxergar os atributos ou métodos que estão dentro de uma classe. Uma forma de dizer para o atributo ou método se ele é acessível de fora ou não da classe. 
+- Acessar o conteúdo de uma classe.
+- Existem três formas de perceber um atributo dentro de uma classe: pública, restrita ou privada.
+- A visibilidade pública: consegue alterar o que está dentro da classe.
+![image](https://github.com/user-attachments/assets/fc8c4508-8451-42b4-930e-4124e3ccec03)
+
+- A visiblidade restrita: no python é um aviso para não mexer, não altera o valor desse atributo, mas nada impede de ele mexer. Escreve-se com um _nome_variável. Uma variável restrita, no Python pode ser acessada de fora da classe. Não dá bola pra essa visibilidade. è basicamente a pública e a privada.
+![image](https://github.com/user-attachments/assets/be06f939-7535-4bd1-8772-f17c6363a15a)
+
+- A visibilidade privada: no python se escre com __nome_variável, quer dizer que ninguem pode acessar esse atributo de fora da classe. Esse está protegido.
+![image](https://github.com/user-attachments/assets/62b0b7db-6241-45c4-bbbc-3402bdd4ae6b)
+
+- Em outras linguagens as visibilidades pública, restrita e privada tem a mesma intenção mas são implementadas de formas diferentes.
+- Encapsulamente + visibilidade = maior privacidade, código mais confiável, segurança.
+- Quando protege o atributo com __ (privado) só consegue alterar ele usando o método get, que é público. Esse método consegue consultar determinado atributo, busca o conteúdo. O método público set consegue alterar o atributo privado (__), se escreve .set(irá alterar o valor dos atributos), altera o conteúdo.
+![image](https://github.com/user-attachments/assets/efa91858-2444-4c52-9ff0-350f3242f196)
+
+- Eles "cuidam" para ver se conteúdo pode ser visto com o get ou modificado com o set.
+![image](https://github.com/user-attachments/assets/190b8ca6-c2b7-4497-8fe1-7da12bf5b287)
+- Não irá ter alteração no salário da pessoa e o código segue normalmente.
+- Ter o código mais fechadinho possível com: métodos e funções pequenas que executam coisas simples, mas de forma segura.
