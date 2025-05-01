@@ -1,4 +1,4 @@
-class Televisao:
+class TelevisaoLG:
   def __init__(self):
     self.marca = "LG"
     self.volume = 0
@@ -11,7 +11,7 @@ class Televisao:
     if self.volume > 0:
       self.volume = self.volume - 1
     
-tv = Televisao()
+tv = TelevisaoLG()
 tv.aumentar_volume()
 tv.aumentar_volume()
 tv.aumentar_volume()
