@@ -81,3 +81,12 @@ joaoa = Pessoa() // joao recebe uma instância gerada da classe Pessoa e essa in
 - O atributo de instância é para aquele único objeto.
 - O atributo de classe é para todos os objetos que já foram ou serão instânciados pela classe.
 ![image](https://github.com/user-attachments/assets/5daeaed9-7ca3-4fd6-b69f-5143f8b40cd2)
+
+## Encapsulamento
+- Está vinculado a ideia de proteger. Construit algo em torno de um objeto.
+- Colocar algo dentro de uma cápsula. Proteger o objeto em si.
+- Uma forma de proteger os atributos e os métodos de dentro de uma classe.
+- Um objeto encapsula os seus dados.
+- Uma instância de uma classe significa que encapsuloou tudo que está dentro daquela classe em um objeto.
+- A atribuição é um encapsulamento.
+- Temos que melhorar esse encapsulamento para proteger melhor o que tem dentro dele.
