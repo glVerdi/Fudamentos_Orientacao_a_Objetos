@@ -1,5 +1,4 @@
 # Fundamentos Orientação a Objetos 
-
 ## O que é programação Orientado a Objetos
 - O principal objetivo da programação é resolver algum tipo de problema utilizado para isso um software. De forma genérica, podemos resolver um problema de maneiras diferentes, com visões diferentes, na programação essas visões diferentes são conhecidas como paradigma.
 - Queremos relacionar os objetos para trocar informações entre si, cada objeto se relaciona com características, com ações individuais dele, para cada objeto se tem métodos diferentes. 
@@ -10,6 +9,7 @@
 - O objeto vai ser construído e guardado em uma variável e esse objeto vai vir de um modelo, outro código irá gerar esse modelo, esse modelo é a classe.
 - Uma classe é um modelo onde irá se descrever as propriedades do objeto que irá ser utilizado durante o código.
 - Vários objetos e eles serão iguais entre si.
+
 ## Classes, métodos e objetos
 - Quando criamos um objeto precisamos pensar qual o seu objetivo, para qual finalidade ele será utilizado, então é importante sabermos por que ele deve existir no seu código.
 - Uma instância nada mais é do que gerar alguma coisa de forma instaantânea. è o momento no código que o processo irá acontecer, que o código vai gerar nosso objeto. Uma instância de classe é um objeto cujo seu comportamento e seus estados são definidos através da classe, e a classe possui atributos e métodos. è o momento em que consulta aquele molde e gera o objeto. Exemplo: altura = 170 e cor_cabelo = "Preta" são instâncias de um número inteiro e de um caractere e são atribuidas pelas variáveis altura e cor_cabelo. 170 é um objeto e "Preta" também é um objeto, o objeto é o resultado da instância da classe.
@@ -24,11 +24,12 @@ maria = Pessoa() // maria é o nome da variável que está armazenando a instân
 joaoa = Pessoa() // joao recebe uma instância gerada da classe Pessoa e essa instância está sendo armazenada na variável joao. joao é o nome da variável que está armazenando a instância, o objeto, gerado da classe Pessoa
 - Orinetação a Objetos é um paradigma da programação.
 - Em uma linguagem de programação orientada a objetos todas as variáveis são instâncias de classes. Classes de números inteiros, classes de números reais, classes que representam as strings. E essas classes representam essas variáveis, pois elas se comportam diferente no código. Diferentes classes representam diferentes tipos de objetos.
+
 ## Variáveis
 - Vamos perceber que um objeto pode ser visto como um tipo de variável que é construída pelo próprio programador.
 - Local onde irá guardar temporariamente algo dentro.
 - Atribuição: é quando se pega uma variável e colocamos alguma coisa nela. Que é um espaço de memória.
-Exemplo: class Carro:
+- Exemplo: class Carro:
            odometro = 0
            motorizacao = 1.0
          sandero = Carro() // sandero é uma instância da classe Carro
@@ -37,3 +38,25 @@ Exemplo: class Carro:
   - As variáveis tem que ter o nome mais significativo para o seu usa, para que outras pessoas consigam entender.
   - Os atributos de uma classe podem ser classificados de formas diferentes. Podendo estar dentro de um método/função. Quando pegamos uma função e definimos ela dentro de uma classe, ela começa a se chamr de método.
   - Os atributos que estão dentro de um método são atributos de instância. São vinculados ao objeto que estou criando na hora, com aquelas características. Atributos de classe são atributos para todos os objetos gerados naquela classe.
+
+## Métodos/Funções
+- Utiliozar um código aparte do programa principal e ela vai executar essa funcionalidade, dando ou não retorno.
+- def define uma função e o que vir depois é o nome da função.
+- Se depois vem um () é um método/função.
+- Parâmetro está dentro desse ().
+- Exemplo: def /* palavra reservada que define uma função*/ nome da função(parâmetro1, parâmetro2, parâmetro3) /* pode se ter vários parâmetro para a função executar o que ela precisa, pode não se ter parâmetro. */ resultado = parâmetro1 * parâmetro2 + parâmetro3 return resultado /* irá retornar o valor que deu em resutado */
+- Quando tem uma chamada de função, que é aquilo que quero executar, o que passa entre os () é um argumento
+
+## Métodos e funções em detalhes
+- Na função, o que se tem dentro do () se chama parâmetro.
+- Existem métodos que possuem parâmetros e métodos que podem retornar o resultado de uma ação.
+![image](https://github.com/user-attachments/assets/523e1e1e-60d5-487c-9872-fa2c9f5ce26f)
+![image](https://github.com/user-attachments/assets/3aca6a53-059a-49f8-9c0a-6aec697c5ac5)
+- Na função a mensagem é um parâmetro que recebe o argumento "Olá! Seja Bem-vincdo.".
+![image](https://github.com/user-attachments/assets/55d4f3d9-a608-4d20-b8db-91ad46792562)
+- Agora tem uma nova chamada a função, que receberá um novo parâmetro que tem um novo argumento.
+![image](https://github.com/user-attachments/assets/f523ae27-f813-47f0-854e-cec4a7ef870d)
+- Agora tem uma nova chamada a função, que receberá um novo parâmetro que tem um novo argumento.
+![image](https://github.com/user-attachments/assets/fb9414fa-e7d6-4feb-880d-a52a5b83dbf4)
+- Quando a função for executar algo e retornará o resultado da execução, terá um return.
+- Tudo isso também se aplica a ideia de métodos. Tendo a mesma forma de execuçã de uma função, a única diferença é que métodos são funções que estão escritas dentro de uma classe.
