@@ -34,12 +34,16 @@ joaoa = Pessoa() // joao recebe uma instância gerada da classe Pessoa e essa in
            motorizacao = 1.0
          sandero = Carro() // sandero é uma instância da classe Carro
          ka = Carro() // ka é uma insância da classe Carro
-  - Se tem uma única variável que define todas as propriedades.
-  - As variáveis tem que ter o nome mais significativo para o seu usa, para que outras pessoas consigam entender.
-  - Os atributos de uma classe podem ser classificados de formas diferentes. Podendo estar dentro de um método/função. Quando pegamos uma função e definimos ela dentro de uma classe, ela começa a se chamr de método.
-  - Os atributos que estão dentro de um método são atributos de instância. São vinculados ao objeto que estou criando na hora, com aquelas características. Atributos de classe são atributos para todos os objetos gerados naquela classe.
-
-## Métodos/Funções
+- Se tem uma única variável que define todas as propriedades.
+- As variáveis tem que ter o nome mais significativo para o seu usa, para que outras pessoas consigam entender.
+- Os atributos de uma classe podem ser classificados de formas diferentes. Podendo estar dentro de um método/função. Quando pegamos uma função e definimos ela dentro de uma classe, ela começa a se chamr de método.
+- Os atributos que estão dentro de um método são atributos de instância. São vinculados ao objeto que estou criando na hora, com aquelas características. Atributos de classe são atributos para todos os objetos gerados naquela classe.
+  ![image](https://github.com/user-attachments/assets/d46d553a-ab20-4444-9267-9233c6525af3)
+- Os atributos de classe são: variáveis declaradas dentro da classe.
+- Dentro de uma classe também tem métodos.
+-  Posso ter quantos atributos uma classe for necessária, tudo que precisar para aquele objeto, todas as caraterísticas que precisar utilizar.
+  
+  ## Métodos/Funções
 - Utiliozar um código aparte do programa principal e ela vai executar essa funcionalidade, dando ou não retorno.
 - def define uma função e o que vir depois é o nome da função.
 - Se depois vem um () é um método/função.
@@ -60,3 +64,20 @@ joaoa = Pessoa() // joao recebe uma instância gerada da classe Pessoa e essa in
 ![image](https://github.com/user-attachments/assets/fb9414fa-e7d6-4feb-880d-a52a5b83dbf4)
 - Quando a função for executar algo e retornará o resultado da execução, terá um return.
 - Tudo isso também se aplica a ideia de métodos. Tendo a mesma forma de execuçã de uma função, a única diferença é que métodos são funções que estão escritas dentro de uma classe.
+
+## Método init e a palavra self
+-  Métodos especiais, e que alguns destes métodos precisam de um parâmetro para funcionarem corretamente.
+- Cria métodos, que são ações que se vai fazer em cima daquele objeto.
+- Os atributos irão dar as características, o status daquele objeto naquele momento.
+- O que pode ser fewito com aquele objeto está declarado nos seus métodos. As ações, o que posso fazer com aquele objeto.
+- O parâmetro self. Toda vez que estiver dentro de uma classe e precisar fazer referência ao atributo daquele objeto, essa referência ao objeto se dará por esse self. Irá dizer para qual dos objetos que instancipou na classe, quais objetos criou, irá acelerar.
+- No exemplo tem duas instâncias, dois objetos instanciados da mesma classe: objeto carro_novo e objeto carro_velho, so alterando a velocidade do objeto carro_novo.
+![image](https://github.com/user-attachments/assets/5e86ed69-2563-4f92-826d-d153c4e07aea)
+- O self se repete para todos os atributos, identifica de forma única aquele objeto e aquele atributo.
+- Método init, é o construtor do objeto, é responsável por criar o objeto e os seus atributos já com o conteúdo, que é o que já estamos atribuindo diretamente. Irá ser executado primeiro, o que estiver no __init__.
+![image](https://github.com/user-attachments/assets/bca7f2f5-8332-4181-bf32-0a9225eed52d)
+- Estarão presentes em todas as classes que contruirmos.
+- cls é um método que manipula os atributos da classe.
+- O atributo de instância é para aquele único objeto.
+- O atributo de classe é para todos os objetos que já foram ou serão instânciados pela classe.
+![image](https://github.com/user-attachments/assets/5daeaed9-7ca3-4fd6-b69f-5143f8b40cd2)
