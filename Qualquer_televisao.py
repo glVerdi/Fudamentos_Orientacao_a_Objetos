@@ -3,19 +3,19 @@ class Qualquer_televisao:
     self.marca = marca
     self.volume = 0
     
-  def aumentar_volume(self): # método fica dentro da classe
+  def aumentar_volume(self): # método fica dentro da classe, sempre vinculado a um objeto
     if self.volume < 10:
       self.volume = self.volume + 1
     
-  def diminuir_volume(self): # método fica dentro da classe
+  def diminuir_volume(self): # método fica dentro da classe, sempre vinculado a um objeto
     if self.volume > 0:
       self.volume = self.volume - 1
 
-  def visualizar_atributos(self): # método fica dentro da classe
+  def visualizar_atributos(self): # método fica dentro da classe, sempre vinculado a um objeto
     print("TV Marca:, self.marca)
     print("---Volume:", self.volume)
       
-def ler_marca_tv(): # Função fica fora da classe 
+def ler_marca_tv(): # Função fica fora da classe, pode utilizar a qualquer momento
     return input("Entre com a Marca da Tv: ")
 
 tv_sala.Qualquer_televisao(ler_marca_tv())
