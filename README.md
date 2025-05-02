@@ -12,7 +12,7 @@
 
 ## Classes, métodos e objetos
 - Quando criamos um objeto precisamos pensar qual o seu objetivo, para qual finalidade ele será utilizado, então é importante sabermos por que ele deve existir no seu código.
-- Uma instância nada mais é do que gerar alguma coisa de forma instaantânea. è o momento no código que o processo irá acontecer, que o código vai gerar nosso objeto. Uma instância de classe é um objeto cujo seu comportamento e seus estados são definidos através da classe, e a classe possui atributos e métodos. è o momento em que consulta aquele molde e gera o objeto. Exemplo: altura = 170 e cor_cabelo = "Preta" são instâncias de um número inteiro e de um caractere e são atribuidas pelas variáveis altura e cor_cabelo. 170 é um objeto e "Preta" também é um objeto, o objeto é o resultado da instância da classe.
+- Uma instância nada mais é do que gerar alguma coisa de forma instaantânea. É o momento no código que o processo irá acontecer, que o código vai gerar nosso objeto. Uma instância de classe é um objeto cujo seu comportamento e seus estados são definidos através da classe, e a classe possui atributos e métodos. è o momento em que consulta aquele molde e gera o objeto. Exemplo: altura = 170 e cor_cabelo = "Preta" são instâncias de um número inteiro e de um caractere e são atribuidas pelas variáveis altura e cor_cabelo. 170 é um objeto e "Preta" também é um objeto, o objeto é o resultado da instância da classe.
 - Uma classe é a descrição de um conjunto de objetos. Este conjunto de objetos compartilha atributos e comportamentos entre si. Uma definição de classe descreve todos os atributos dos objetos membros desta classe, bem como os métodos que implementam o comportamento destes objetos. Os métodos geram as ações que pode ser feito em determinado objeto.
 - Uma descrição é dada pelos sesu stributos.
 - O que posso fazer com o objeto descreve as ações.
@@ -132,10 +132,19 @@ joaoa = Pessoa() // joao recebe uma instância gerada da classe Pessoa e essa in
 ![image](https://github.com/user-attachments/assets/81e7575f-05e7-4e9a-8ddd-b55073ee710d)
 ![image](https://github.com/user-attachments/assets/09da124b-d3c8-452c-9a9a-8234e8236590)
 
-O pripeiro depois do @property é o get e o que vem logo a baixo é o set. è mais comum estar escrito assim
+- O pripeiro depois do @property é o get e o que vem logo a baixo é o set. è mais comum estar escrito assim
 ![image](https://github.com/user-attachments/assets/66470862-50dc-4c29-9192-4395a88c9eed)
 ![image](https://github.com/user-attachments/assets/f0a89333-d305-48c5-a658-d4f4fdea3d80)
 ![image](https://github.com/user-attachments/assets/f65928ea-755a-4f74-8803-f8dedf9ef095)
 
-o exemplo 2 e 3 acessa de forma mais simplificada os atributos get e set.
+- O exemplo 2 e 3 acessa de forma mais simplificada os atributos get e set.
 ![image](https://github.com/user-attachments/assets/54c48630-e505-4f7a-ac73-fed2ebb7635a)
+
+- Das opções abaixo qual define melhor o que é uma classe na programação orientada a objetos? Um modelo para criar objetos 
+- Marque a opção que melhor expressa o que é um atributo em uma classe? Uma propriedade ou característica da classe 
+- Qual das opções abaixo resume o que é encapsulamento em programação orientada a objetos? A prática de esconder os detalhes de implementação e expondo apenas a interface
+
+## Herança
+- É um dos conceitos mais importantes da programação orientada a objetos.
+- A ideia que normalmente temos da palavra herança é de receber algo de alguém, normalmente por falecimento. Claro que não isso, na programação orientada a objetos herança está vinculada ao recebimento de características vinculadas a classe de origem.
+- Portanto, o conceito está mais para o lado de herança genética do que herança de bens. Pois a ideia de que os pais passam aos filhos parte de suas características é mais adequada aqui.
