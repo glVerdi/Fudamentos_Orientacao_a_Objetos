@@ -115,3 +115,27 @@ joaoa = Pessoa() // joao recebe uma instância gerada da classe Pessoa e essa in
 ![image](https://github.com/user-attachments/assets/190b8ca6-c2b7-4497-8fe1-7da12bf5b287)
 - Não irá ter alteração no salário da pessoa e o código segue normalmente.
 - Ter o código mais fechadinho possível com: métodos e funções pequenas que executam coisas simples, mas de forma segura.
+- gets e sets acessam atributos privados da classe.
+
+## Decoradores
+- Permitem que modifiquemos o comportamento de uma método sem alterar sua estrutura.
+- Esse método vai funcionar com este nome. Pode fazer atribuições ou dar um print no nome do método.
+- Alguns decoradores já fazem parte da linguagem, como: PROPERTY, CLASSMETHOD, etc. Podemos criar os nossos.
+![image](https://github.com/user-attachments/assets/d4c7841f-c595-496a-8d42-5d4f10bc8b5a)
+![image](https://github.com/user-attachments/assets/8b7fc016-f6b0-4d54-b96b-ca7b178720a5)
+![image](https://github.com/user-attachments/assets/e4e68df9-02bc-475d-a9b9-b47d29024755)
+
+- Está usando uma classe para criar um novo objeto, que é um nome.
+![image](https://github.com/user-attachments/assets/64a88522-a7fb-462c-9438-9828cde552df)
+
+![image](https://github.com/user-attachments/assets/bad28610-5f5f-4b6a-891d-48d1e56d40a2)
+![image](https://github.com/user-attachments/assets/81e7575f-05e7-4e9a-8ddd-b55073ee710d)
+![image](https://github.com/user-attachments/assets/09da124b-d3c8-452c-9a9a-8234e8236590)
+
+O pripeiro depois do @property é o get e o que vem logo a baixo é o set. è mais comum estar escrito assim
+![image](https://github.com/user-attachments/assets/66470862-50dc-4c29-9192-4395a88c9eed)
+![image](https://github.com/user-attachments/assets/f0a89333-d305-48c5-a658-d4f4fdea3d80)
+![image](https://github.com/user-attachments/assets/f65928ea-755a-4f74-8803-f8dedf9ef095)
+
+o exemplo 2 e 3 acessa de forma mais simplificada os atributos get e set.
+![image](https://github.com/user-attachments/assets/54c48630-e505-4f7a-ac73-fed2ebb7635a)
