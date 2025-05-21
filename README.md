@@ -200,3 +200,27 @@ joaoa = Pessoa() // joao recebe uma instância gerada da classe Pessoa e essa in
 - Interface é uma classe que vai ser herdada por outras classes, que possui métodos que são completamente ocos e não possui construtor.
 ![image](https://github.com/user-attachments/assets/7dfc5a40-03f2-4b33-b913-846624263498)
 ![image](https://github.com/user-attachments/assets/771da78d-33cf-4b63-ada8-bec1947e68e5)
+
+## Métodos Abstratos
+- Os métodos abstratos permitem que você projete interfaces elegantes para suas classes. Eles são como partituras musicais, indicando notas e ritmos, mas deixando espaço para a interpretação. Então, imagine-se como um maestro regendo uma orquestra. Cada instrumento (classe) segue a partitura (método abstrato), mas adiciona sua própria harmonia. Essa flexibilidade é essencial para criar sistemas modulares e expansíveis.
+- De forma geral, abstração significa simplificar a complexidade de algo, considerando apenas o que é relevante.
+- Classe abstrata é uma classe especial. Ela não pode ser instanciada, também definem os métodos e os atributos que devem ser, obrigatoriamente implementados nas suas filhas. 
+- No úthon tem o módulo ABC (Abstract Base Classes), para ajudar a definir uma classe como abstrata, ter pelo menos um método abstrato, todas as classes herdadas tem que ter uma implementação desses métodos.
+![image](https://github.com/user-attachments/assets/f622df66-9a62-4e3f-b2e0-3d4d463ac974)
+
+![image](https://github.com/user-attachments/assets/78966603-0ac5-4de0-a412-005480973c4a)
+![image](https://github.com/user-attachments/assets/1f937cea-4781-4a89-8091-94a6453d4ede)
+
+## Métodos estáticos
+- Quando você declara um método como estático, está criando um método que pode ser invocado sem criar instâncias. Essa imutabilidade é poderosa e nos permite realizar tarefas bem interessantes.
+- Estático é algo parada, no código a ideia é criar métodos que também não se movem, que não pertençam a um objeto, eles vao pertencer a classe como um todo.
+- Métodos estáticos e atributos de classe serão fixos para toda classe.
+- não "se move" em relação aos objetos instanciados dele, ele serve para a classe toda, inclusive para objetos que ja foram instanciados.
+- Métodos estáticos não dependem de uma instância para serem chamados, não podem acessar variáveis de instância diretamente.
+![image](https://github.com/user-attachments/assets/6b8a81b7-7fbf-4307-a73b-9c7358a783fc)
+
+![image](https://github.com/user-attachments/assets/9a3b50dc-4b52-4755-b0c2-e65d3e0cf393)
+
+![image](https://github.com/user-attachments/assets/48631aac-6fd8-4a45-b1df-a159271876e7)
+
+![image](https://github.com/user-attachments/assets/6f85a81e-98c7-4783-b72c-e4ecd369ae50)
