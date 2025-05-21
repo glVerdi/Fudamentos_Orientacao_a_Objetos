@@ -148,3 +148,28 @@ joaoa = Pessoa() // joao recebe uma instância gerada da classe Pessoa e essa in
 - É um dos conceitos mais importantes da programação orientada a objetos.
 - A ideia que normalmente temos da palavra herança é de receber algo de alguém, normalmente por falecimento. Claro que não isso, na programação orientada a objetos herança está vinculada ao recebimento de características vinculadas a classe de origem.
 - Portanto, o conceito está mais para o lado de herança genética do que herança de bens. Pois a ideia de que os pais passam aos filhos parte de suas características é mais adequada aqui.
+- Herança esta vinculaa ao que recebemos
+- Pega parte do código e coloca em uma classe e está classe sera herdada por outras classes
+- Qualquer linguagem de programação já tem previamente definido o seu tipo de dado. Para cada tipo de variável, existe uma classe prefefinida para cuidar desses dados.
+![image](https://github.com/user-attachments/assets/3a35e173-1d37-44b8-b374-77a9b9fd9a18)
+- A ideia é que essa superclasse forneça os atributos e os métodos que vão ser comuns a todas as outras classe que vão herdar dela.
+- Herança é um conceito do paradigma de orientação a objetos.
+- Uma classe fimlha vai herdar atributos e métodos de uma classe mãe. Evitando assim repetição de código.
+- O objetivo da herança, então, é criar novas classes a partri de uma superclasse.
+
+![image](https://github.com/user-attachments/assets/25327f36-1286-4f8e-aa14-690e38d7bb22)
+![image](https://github.com/user-attachments/assets/aca0d9a4-023b-4562-87aa-f5cd850b5b1a)
+![image](https://github.com/user-attachments/assets/2398786d-412f-4b25-b9d7-5f8ff03bb245)
+![image](https://github.com/user-attachments/assets/18076cca-fcba-46ba-b055-1233833bd4e6)
+![image](https://github.com/user-attachments/assets/6dc09a7f-e4dc-40fb-b657-b84473ad6f57)
+
+![image](https://github.com/user-attachments/assets/0a97ff24-953c-4827-8188-9a28ea386def)
+
+![image](https://github.com/user-attachments/assets/fdd28725-3c3b-4d1f-8268-3241bb071242)
+![image](https://github.com/user-attachments/assets/4eeb8db6-12f0-460f-81ff-a6cedfffdacf)
+
+- Podemos utilizar a herança para acessar métodos predefinidos na classe.
+- Existem super classes e que, pela herança, podemos utilizar os atributos e métodos destas classes.
+![image](https://github.com/user-attachments/assets/cae45b90-a66d-45b4-982b-e177feecd0d8)
+![image](https://github.com/user-attachments/assets/eb437152-13eb-4e95-a4f0-bb5ed60cb95a)
+![image](https://github.com/user-attachments/assets/76dc3314-83da-4e23-aef8-f47b8affe00c)
