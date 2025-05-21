@@ -173,3 +173,8 @@ joaoa = Pessoa() // joao recebe uma instância gerada da classe Pessoa e essa in
 ![image](https://github.com/user-attachments/assets/cae45b90-a66d-45b4-982b-e177feecd0d8)
 ![image](https://github.com/user-attachments/assets/eb437152-13eb-4e95-a4f0-bb5ed60cb95a)
 ![image](https://github.com/user-attachments/assets/76dc3314-83da-4e23-aef8-f47b8affe00c)
+
+![image](https://github.com/user-attachments/assets/f26d0632-40fa-42a0-8166-ee07c6fbfd22)
+
+![image](https://github.com/user-attachments/assets/1dd28b6a-e7ef-4aba-87c6-d665cf353678)
+![image](https://github.com/user-attachments/assets/406f517d-3e0c-446a-8f17-7b07fc562dbd)
