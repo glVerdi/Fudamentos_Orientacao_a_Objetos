@@ -178,3 +178,25 @@ joaoa = Pessoa() // joao recebe uma instância gerada da classe Pessoa e essa in
 
 ![image](https://github.com/user-attachments/assets/1dd28b6a-e7ef-4aba-87c6-d665cf353678)
 ![image](https://github.com/user-attachments/assets/406f517d-3e0c-446a-8f17-7b07fc562dbd)
+
+## Polimorfismo
+- O polimorfismo é um conceito fascinante na Programação Orientada a Objetos. É uma chave que se adapta a várias situações diferentes. As classes filhas podem possuir métodos com implementações diferentes, mas ainda assim com a mesma assinatura, permitindo que realizem ações distintas. Lembre-se de que o polimorfismo é uma ferramenta poderosa que nos permite criar sistemas mais flexíveis e reutilizáveis.
+- Algo que pode assumir várias formas.
+- É um dos pilares da programação orientada a objetos.
+- O polimorfismo permite que classes derivadas sejam capazes de utilizar métodos já pré-estabelecidos na classe mãe mas que vão assumir uma outra funcionalidade.
+- A assinatura de um método é o nome dele, é a primeira linha.
+![image](https://github.com/user-attachments/assets/73b8aa12-374d-44f7-9760-25cd30e7b2b1)
+![image](https://github.com/user-attachments/assets/afa4eb29-4a34-426d-8a72-717c4df493d6)
+
+- Permite que as classes derivadas de uma única classe pai sejam capazes de utilizar os métodos que, embora apresentem a mesma assinatura, se comportam de maneiras diferentes para cada uma das classes instanciadas.
+![image](https://github.com/user-attachments/assets/d30b50dd-e305-4248-9f3c-830e25af9e0a)
+
+## Interface 
+- As interfaces são como portais mágicos que conectam diferentes partes do seu código. Elas definem contratos que as classes devem cumprir, especificando quais métodos devem ser implementados. Imagine-se como um explorador digital, desbravando terras desconhecidas. Cada interface é uma trilha clara, apontando o caminho.
+- Todos os objetos que a gente manipula em nosso dia a dia possuem interface.
+- De forma genérica, interface é um recurso utilizado para definir ações, que são implementadas nas suas subclasses.
+- Algumas linguagens possuem uma palavra reservada para explicitar que a classe será uma interface.
+- A classe interface também não deve possuir o método construtor. Classe oca.
+- Interface é uma classe que vai ser herdada por outras classes, que possui métodos que são completamente ocos e não possui construtor.
+![image](https://github.com/user-attachments/assets/7dfc5a40-03f2-4b33-b913-846624263498)
+![image](https://github.com/user-attachments/assets/771da78d-33cf-4b63-ada8-bec1947e68e5)
