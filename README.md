@@ -224,3 +224,46 @@ joaoa = Pessoa() // joao recebe uma instância gerada da classe Pessoa e essa in
 ![image](https://github.com/user-attachments/assets/48631aac-6fd8-4a45-b1df-a159271876e7)
 
 ![image](https://github.com/user-attachments/assets/6f85a81e-98c7-4783-b72c-e4ecd369ae50)
+
+## Os 5 Princípios Fundamentais da POO
+- Os conceitos ajudam a estruturar o código de uma maneira mais eficaz, definem as responsabilidades de classe, de cada objeto e como eles interajam entre si.
+- Chamados SOLID.
+- S = Princípio da Responsabilidade Única, cada classe desenvolvida deve ter somente uma responsabilidade dentro do software.
+
+![image](https://github.com/user-attachments/assets/8d79e6fa-7c55-4764-801a-116a4d8597d2)
+![image](https://github.com/user-attachments/assets/5f8e78ed-8f48-4aca-b013-f6a9236c306f)
+![image](https://github.com/user-attachments/assets/b9d28da8-21d4-4bd8-bfcc-aebbba9fc7ff)
+![image](https://github.com/user-attachments/assets/1f656711-d1a5-498c-bf4c-2301705456ea)
+
+![image](https://github.com/user-attachments/assets/5627b3c1-e43e-48c1-a042-6224c24e9ce5)
+
+- Nem sempre é nítida a ideia de onde começa e onde termina cada responsabilidade. Se não der certo, faz de novo, refatora o código.
+- Várias responsabilidades em um único módulo: acoplação forte.
+
+- O = Princípio Aberto-Fechado,  os módulos, classes, métodos, devem estar prontos para extensão, podendo agregar novas funcionalidades, novas ações, aos módulos que se já tem, sem mexer no que já está funcionando.
+Um contra-exemplo:
+![image](https://github.com/user-attachments/assets/80efe5cf-08a2-4f0c-a443-09d02526377b)
+
+O jeito correto:
+![image](https://github.com/user-attachments/assets/1400602d-5783-4bb2-8880-8dce73c1f44d)
+
+- L = Princípio da Substituição de Liskov, classes derivadas, classe filhas, devem ser substituíveis pelas classes mães, sem quebra no código.
+![image](https://github.com/user-attachments/assets/cf103361-23e9-47b4-89df-f694dab675da)
+
+![image](https://github.com/user-attachments/assets/036c99d5-c9d8-4ffa-a8bd-98eb74f75765)
+
+Mais um exemplo correto
+![image](https://github.com/user-attachments/assets/26d1df67-f3ff-44a8-9842-ae8547391159)
+
+- I = Princípio da Segregação de Interface, uma classe não deve ser forçada a implementar algo que ela não utiliza.
+
+![image](https://github.com/user-attachments/assets/7b04ae6b-3a51-4271-8d2c-b194b160eb9c)
+
+![image](https://github.com/user-attachments/assets/8d55a947-b10e-4697-b693-a9134686c342)
+
+- D = Princípio da Inversão de Dependência, xlasse de alto nível não poddem depender de classes de baixo nível, e sim ambas dependerem de abstrações, abstrações não devem depender de detalhes de implementação. Os detalhes de implementação que devem depender de suas abstrações.
+Um contra-exemplo:
+![image](https://github.com/user-attachments/assets/b12c4921-0e82-428f-9db8-8e9f87a0f48e)
+
+O jeito correto:
+![image](https://github.com/user-attachments/assets/c5ed4d41-54bd-4944-a4a7-6b1a11fa3ad5)
